@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
 body{
     margin: 0;
     padding: 0;
-
+    font-family: "MyFont2";
     #html{
         color:#e34c26;
     }
@@ -48,7 +48,7 @@ body{
   max-width: 1300px;
   justify-content: center;
   margin: auto;
-  padding-bottom: 64px;
+  
 }
 .last{
   padding-top: 5px;

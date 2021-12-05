@@ -4,7 +4,7 @@ export const Wrapper = styled.div``;
 export const Container = styled.div`
   background-image: url(${(props) => props.imgUrl});
   background-size: cover;
-
+  background-attachment: fixed;
   /* Set a specific height */
   min-height: 800px;
 

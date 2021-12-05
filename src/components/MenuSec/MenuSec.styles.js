@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: var(--white);
+  background-color: var(--lightbrown);
   padding-bottom: 64px;
 `;
 
@@ -33,9 +33,10 @@ export const CardWrapper = styled.div`
   overflow: hidden;
   padding: 0 0 32px;
   margin: 0px 24px 24px;
-
-  width: 300px;
+  background: var(--white);
+  width: 450px;
   z-index: 1;
+  box-shadow: 0px 12px 18px -6px rgb(0 0 0 / 30%);
 `;
 export const Text = styled.div`
   margin: auto;
@@ -70,7 +71,8 @@ export const CardHeader = styled.header`
 `;
 export const CardHeading = styled.h1`
   text-align: center;
-  color: var(--blue);
+  color: var(--black);
+  font-size: var(--fontSuperBig);
 `;
 
 export const CardBody = styled.div`
@@ -102,16 +104,19 @@ export const CardOptionsNote = styled.small`
   display: block;
 
   width: 100%;
-  font-size: var(--smallFont);
-  text-align: center;
+  font-size: var(--fontMed);
+  text-align: left;
 `;
 
 export const Page = styled.img`
   display: block;
-  height: auto;
-  width: 100%;
+  height: 200px;
+  width: 400px;
   margin: auto;
-  padding: 0px;
+  padding: 0px 30px;
+  @media screen and (max-width: 720px) {
+    width: 100%;
+  }
 `;
 export const Message = styled.a`
   background-image: radial-gradient(#ff8a00, #e52e71);

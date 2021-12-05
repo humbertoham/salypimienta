@@ -13,6 +13,7 @@ export const Content = styled.div`
   text-align: center;
   p {
     font-size: 0.8rem;
+    font-family: "Poppins";
   }
 `;
 export const Red = styled.a`

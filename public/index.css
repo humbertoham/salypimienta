@@ -6,3 +6,7 @@
   font-family: "MyFont";
   src: local("MyFont"), url(fonts/MyFont.ttf) format("truetype");
 }
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(fonts/Poppins.ttf) format("truetype");
+}

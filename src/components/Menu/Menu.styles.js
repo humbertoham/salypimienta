@@ -16,7 +16,6 @@ export const StyledMenu = styled.nav`
   z-index: 3;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
-    height: 600px;
   }
 
   a {

@@ -25,7 +25,6 @@ export const Container = styled.div`
     z-index: -1;
   }
   @media (max-width: 768px) {
-    min-height: 600px;
     background-attachment: unset;
   }
 `;
@@ -132,7 +131,4 @@ export const Message = styled.a`
     background-color: var(--white);
     color: var(--black);
   }
-`;
-export const LogoM = styled.img`
-  width: 50px;
 `;

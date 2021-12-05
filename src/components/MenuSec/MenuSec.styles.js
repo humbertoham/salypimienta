@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
+  padding-top: 20px;
   max-width: var(--maxWidth);
   margin: 0 auto;
 

@@ -7,7 +7,7 @@ export const Container = styled.div`
   background-attachment: fixed;
   /* Set a specific height */
   min-height: 800px;
-
+  overflow: hidden;
   /* Create the parallax scrolling effect */
   background-position: center;
 
@@ -26,6 +26,7 @@ export const Container = styled.div`
   }
   @media (max-width: 768px) {
     background-attachment: unset;
+    min-height: 600px;
   }
 `;
 

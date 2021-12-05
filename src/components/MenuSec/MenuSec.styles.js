@@ -128,7 +128,7 @@ export const Men = styled.a`
   margin: 20px auto;
   width: 300px;
   padding: 12px 0;
-  font-size: 1rem;
+  font-size: var(--fontMed);
   text-decoration: none;
   color: var(--black);
   text-align: center;

@@ -1,25 +1,11 @@
 import React, { useEffect } from "react";
-import {
-  Content,
-  Wrapper,
-  Text,
-  Box,
-  Map,
-  MapContainer,
-  MapC,
-  Center,
-} from "./About.styles";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Content, Wrapper, Text, Map, MapC, Center } from "./About.styles";
 
 import local from "../../images/local.jpeg";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
-import {
-  faHandshake,
-  faLock,
-  faUsers,
-} from "@fortawesome/free-solid-svg-icons";
+
 const About = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });

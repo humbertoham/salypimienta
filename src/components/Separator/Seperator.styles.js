@@ -26,10 +26,9 @@ export const Container = styled.div`
   }
 `;
 export const Text = styled.div`
-  float: right;
   padding: 25px;
-  max-width: 500px;
-  margin: 0;
+  max-width: 450px;
+  margin: auto;
   position: relative;
   top: 25%;
   -ms-transform: translateY(25%);

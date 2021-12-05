@@ -14,8 +14,10 @@ export const StyledMenu = styled.nav`
   left: 0;
   transition: transform 0.3s ease-in-out;
   z-index: 3;
+  overflow: hidden;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
+    height: 600px;
   }
 
   a {

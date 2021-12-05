@@ -23,13 +23,7 @@ const Menu = ({ open, ...props }) => {
         <FontAwesomeIcon className="user" icon={faUser} size="1x" />
         Acerca de
       </a>
-      <a
-        href="https://www.rappi.com.mx/restaurantes/1923743743-sal-y-pimienta-reynosa-reynosa"
-        tabIndex={tabIndex}
-      >
-        <FontAwesomeIcon className="user" icon={faCommentDollar} size="1x" />
-        Ordena ya!
-      </a>
+
       <a href="/" tabIndex={tabIndex}>
         <FontAwesomeIcon className="user" icon={faUtensils} size="1x" />
         Menú

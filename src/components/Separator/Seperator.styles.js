@@ -55,9 +55,9 @@ export const Text = styled.div`
     }
   }
   @media (max-width: 768px) {
-    top: 75%;
-    -ms-transform: translateY(75%);
-    transform: translateY(75%);
+    top: 50%;
+    -ms-transform: translateY(50%);
+    transform: translateY(50%);
   }
 `;
 export const Message = styled.a`

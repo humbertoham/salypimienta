@@ -1,6 +1,14 @@
 import React from "react";
 import { useEffect } from "react";
-import { Container, Wrapper, Text, Logo, LogoN } from "./Banner.styles";
+import {
+  Container,
+  Wrapper,
+  Text,
+  Logo,
+  LogoN,
+  Message,
+  LogoM,
+} from "./Banner.styles";
 import image from "../../images/banner.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -16,6 +24,10 @@ const Banner = () => {
           <Logo href="/">
             <LogoN src={logosal} />
           </Logo>
+          <Message href="https://www.rappi.com.mx/restaurantes/1923743743-sal-y-pimienta-reynosa-reynosa">
+            {" "}
+            Ordena ya!{" "}
+          </Message>
         </Text>
       </Container>
     </Wrapper>

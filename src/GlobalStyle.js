@@ -342,4 +342,20 @@ font-size: var(--fontSuperBig);
             display: none;
   }
 }
+.hom{
+  
+}
+.user{
+margin-right: 10px;
+}
+.google{
+  border: none;
+  height: 400px;
+  width: 400px;
+  @media (max-width: 768px) {
+           padding: 0;
+           height: 300px;
+           width: auto;
+  }
+}
 `;

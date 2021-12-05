@@ -8,9 +8,7 @@ import {
   CardBody,
   CardFieldset,
   CardOptionsNote,
-  Message,
   Page,
-  LogoN,
   Men,
 } from "./MenuSec.styles";
 import Aos from "aos";
@@ -18,7 +16,7 @@ import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import banner from "../../images/banner.jpg";
 import EnchR from "../../images/Enchiladasrojas.jpg";
-import Rappi from "../../images/rappi.svg";
+
 import Ent from "../../images/Entomatadasconcarne.jpg";
 import Mil from "../../images/Milanesaderes.jpg";
 import Que from "../../images/Quecas.jpg";
@@ -136,10 +134,6 @@ const MenuSec = () => {
       <Men href="/">
         Ver menú <FontAwesomeIcon icon={faChevronRight} size="1x" />
       </Men>
-      <Message href="https://www.rappi.com.mx/restaurantes/1923743743-sal-y-pimienta-reynosa-reynosa">
-        {" "}
-        <LogoN src={Rappi} /> Pedir rappi{" "}
-      </Message>
     </Wrapper>
   );
 };

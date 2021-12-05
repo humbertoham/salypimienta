@@ -67,6 +67,7 @@ export const Text = styled.div`
     color: var(--black);
     font-size: var(--fontBig);
     flex-wrap: nowrap;
+
     @media screen and (max-width: 720px) {
       font-size: var(--fontMed);
       text-align: left;

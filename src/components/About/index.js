@@ -68,7 +68,7 @@ const About = () => {
           <p>Tel. 899 924 0100</p>
           <p>Correo: salypimienta2go@gmail.com</p>
           <p>José María Morelos 1920, Rodríguez, 88631 Reynosa, Tamps.</p>
-          <Message href="8999240100">
+          <Message href="tel:8999240100">
             {" "}
             <FontAwesomeIcon className="icon" icon={faPhone} /> Llamar
           </Message>

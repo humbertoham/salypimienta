@@ -3,7 +3,6 @@ import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCommentDollar,
   faEnvelope,
   faHome,
   faUser,

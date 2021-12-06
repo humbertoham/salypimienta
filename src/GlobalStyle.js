@@ -356,7 +356,7 @@ margin-right: 10px;
   @media (max-width: 768px) {
            padding: 0;
            height: 250px;
-           width: auto;
+           width: 100%;
   }
 }
 .icon{

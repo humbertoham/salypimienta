@@ -7,7 +7,6 @@ import {
   Logo,
   LogoN,
   Message,
-  LogoM,
 } from "./Banner.styles";
 import image from "../../images/banner.jpg";
 import Aos from "aos";

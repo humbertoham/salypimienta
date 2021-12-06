@@ -26,7 +26,7 @@ const Banner = () => {
           </Logo>
           <Message href="https://www.rappi.com.mx/restaurantes/1923743743-sal-y-pimienta-reynosa-reynosa">
             {" "}
-            Ordena ya{" "}
+            Ordena ya!{" "}
           </Message>
         </Text>
       </Container>

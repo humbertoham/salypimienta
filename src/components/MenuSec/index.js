@@ -131,7 +131,7 @@ const MenuSec = () => {
           </CardBody>
         </CardWrapper>
       </div>
-      <Men href="/">
+      <Men href="/Menu">
         Ver menú <FontAwesomeIcon icon={faChevronRight} size="1x" />
       </Men>
     </Wrapper>

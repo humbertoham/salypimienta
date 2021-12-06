@@ -24,7 +24,7 @@ const Menu = ({ open, ...props }) => {
         Acerca de
       </a>
 
-      <a href="/" tabIndex={tabIndex}>
+      <a href="/Menu" tabIndex={tabIndex}>
         <FontAwesomeIcon className="user" icon={faUtensils} size="1x" />
         Menú
       </a>

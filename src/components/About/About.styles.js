@@ -5,7 +5,7 @@ export const Wrapper = styled.div`
   box-sizing: border-box;
 
   @media screen and (max-width: 720px) {
-    padding: 0px 75px 75px 75px;
+    padding: 0px 40px 75px 40px;
   }
 `;
 
@@ -26,8 +26,7 @@ export const Content = styled.div`
 export const Box = styled.div`
   margin: 25px;
   text-align: center;
-  float: left;
-  width: 33.33333%;
+
   padding: 25px;
   @media screen and (max-width: 720px) {
     width: auto;
@@ -39,7 +38,7 @@ export const Box = styled.div`
 export const Text = styled.div`
   float: left;
   width: 66.66666%;
-
+  margin: auto;
   padding: 25px;
   max-width: 500px;
   animation: slide-top 1s;
@@ -140,5 +139,31 @@ export const Center = styled.hr`
     top: -4px;
     left: 50%;
     margin: 0 0 0 -3px;
+  }
+`;
+export const Message = styled.a`
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  padding: 12px 0;
+  font-family: inherit;
+  font-size: var(--fontMed);
+  font-weight: 700;
+  color: var(--blue);
+  border: 2px solid var(--blue);
+  border-radius: 35px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+  text-decoration: none;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  &:hover {
+    background-color: var(--blue);
+    color: var(--white);
+  }
+  @media (max-width: 768px) {
+    font-size: var(--fontSmall);
+    width: 200px;
   }
 `;

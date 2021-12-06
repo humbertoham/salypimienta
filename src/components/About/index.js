@@ -1,8 +1,22 @@
 import React, { useEffect } from "react";
-import { Content, Wrapper, Text, Map, MapC, Center } from "./About.styles";
+import {
+  Content,
+  Wrapper,
+  Text,
+  Map,
+  MapC,
+  Center,
+  Message,
+  Box,
+} from "./About.styles";
 
 import local from "../../images/local.jpeg";
-
+import {
+  faFacebookF,
+  faInstagram,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -49,6 +63,29 @@ const About = () => {
             omnis in, perspiciatis beatae at odio excepturi.
           </p>
         </Text>
+      </Content>
+      <Center />
+      <Content id="contact" data-aos="fade-right">
+        <Text>
+          <h1>Contáctanos</h1>
+          <p>Tel. 899 924 0100</p>
+          <p>Correo: salypimienta2go@gmail.com</p>
+          <p>José María Morelos 1920, Rodríguez, 88631 Reynosa, Tamps.</p>
+          <Message href="https://wa.me/528999240100">
+            {" "}
+            <FontAwesomeIcon className="icon" icon={faWhatsapp} /> Enviar
+            mensaje
+          </Message>
+        </Text>
+        <Box>
+          {" "}
+          <iframe
+            className="google"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14335.809084939221!2d-98.289895!3d26.0678162!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d9018133c788bbc!2sSal%20Y%20Pimienta!5e0!3m2!1sen!2smx!4v1638723830301!5m2!1sen!2smx"
+            width="100%"
+            height="400"
+          ></iframe>
+        </Box>
       </Content>
     </Wrapper>
   );

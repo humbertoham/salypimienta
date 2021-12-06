@@ -120,7 +120,7 @@ export const Message = styled.a`
   font-size: var(--fontMed);
   font-weight: 700;
   color: var(--white);
-  border: 3px solid var(--white);
+  border: 2px solid var(--white);
   border-radius: 35px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.08);
   cursor: pointer;
@@ -131,5 +131,9 @@ export const Message = styled.a`
   &:hover {
     background-color: var(--white);
     color: var(--black);
+  }
+  @media (max-width: 768px) {
+    font-size: var(--fontSmall);
+    width: 200px;
   }
 `;

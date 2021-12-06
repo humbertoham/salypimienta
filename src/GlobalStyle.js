@@ -352,10 +352,14 @@ margin-right: 10px;
   border: none;
   height: 400px;
   width: 400px;
+  text-align:center;
   @media (max-width: 768px) {
            padding: 0;
            height: 300px;
            width: auto;
   }
+}
+.icon{
+  font-size: 1.5rem;
 }
 `;

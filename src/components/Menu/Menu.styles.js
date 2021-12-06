@@ -17,7 +17,7 @@ export const StyledMenu = styled.nav`
   overflow: hidden;
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 100%;
-    height: 600px;
+    height: 605.2px;
   }
 
   a {

@@ -4,7 +4,7 @@ export const Wrapper = styled.div``;
 export const Container = styled.div`
   background-image: url(${(props) => props.imgUrl});
   background-size: cover;
-
+  background-attachment: fixed;
   /* Set a specific height */
   min-height: 600px;
 
@@ -24,6 +24,9 @@ export const Container = styled.div`
     width: 100%;
     z-index: -1;
   }
+  @media (max-width: 768px) {
+    background-attachment: unset;
+  }
 `;
 export const Text = styled.div`
   padding: 25px;
@@ -37,6 +40,7 @@ export const Text = styled.div`
   h1 {
     font-family: "Poppins";
     font-size: 4rem;
+
     color: var(--white);
     text-align: center;
     @media screen and (max-width: 720px) {

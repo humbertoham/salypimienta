@@ -17,7 +17,7 @@ const MenuComp = () => {
           <FontAwesomeIcon icon={faChevronLeft} size="1x" /> Volver
         </Men>
         <Text>
-          <h1>Menu </h1>
+          <h1>Menú </h1>
         </Text>
         <MapContainer></MapContainer>
       </Content>

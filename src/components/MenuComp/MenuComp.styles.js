@@ -15,12 +15,12 @@ export const Text = styled.div`
   padding: 10px;
 
   h1 {
-    font-family: "Montserrat", sans-serif;
-    font-size: var(--fontSuperBig);
+    font-family: "MyFont";
+    font-size: 4rem;
     text-align: center;
     color: var(--white);
     @media (max-width: 768px) {
-      font-size: var(--fontBig);
+      font-size: var(--fontSuperBig);
     }
   }
 `;
@@ -54,7 +54,7 @@ export const Men = styled.a`
   text-decoration: none;
   color: var(--black);
   text-align: left;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   :hover {
     text-decoration: underline;
   }

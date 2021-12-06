@@ -355,7 +355,7 @@ margin-right: 10px;
   text-align:center;
   @media (max-width: 768px) {
            padding: 0;
-           height: 300px;
+           height: 250px;
            width: auto;
   }
 }
